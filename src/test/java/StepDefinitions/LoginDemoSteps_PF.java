@@ -16,6 +16,7 @@ public class LoginDemoSteps_PF {
 
     @io.cucumber.java.en.Given("^browser is open$")
     public void browserIsOpen() {
+        System.out.println("User is working on feature Branch");
         System.out.println(" === I am inside LoginDemoSteps_PF Class === ");
         System.out.println(" Inside Step - browser is open ");
         WebDriverManager.chromedriver().setup();
