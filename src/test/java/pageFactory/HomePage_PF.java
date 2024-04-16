@@ -7,6 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage_PF {
+    public static void main(String[] args) {
+        System.out.println("new changes in rms-123");
+    }
+
     @FindBy(id= "logout_sidebar_link")
     WebElement btn_logout;
     WebDriver driver;
