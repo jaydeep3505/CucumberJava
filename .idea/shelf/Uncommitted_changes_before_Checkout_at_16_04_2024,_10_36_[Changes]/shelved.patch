@@ -1,0 +1,19 @@
+Index: src/test/java/pageFactory/HomePage_PF.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pageFactory;\n\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.support.FindBy;\nimport org.openqa.selenium.support.PageFactory;\n\npublic class HomePage_PF {\n    public static void main(String[] args) {\n        System.out.println(\"new changes in rms-123\");\n\n\n    }\n\n    @FindBy(id= \"logout_sidebar_link\")\n    WebElement btn_logout;\n    WebDriver driver;\n    public HomePage_PF(WebDriver driver){\n        this.driver = driver;\n        PageFactory.initElements(driver, this);\n    }\n    public boolean checkLogoutIsDisplayed(){\n        driver.findElement(By.id(\"react-burger-menu-btn\")).click();\n        return btn_logout.isDisplayed();\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/pageFactory/HomePage_PF.java b/src/test/java/pageFactory/HomePage_PF.java
+--- a/src/test/java/pageFactory/HomePage_PF.java	(revision 5689fe62b979cbf078b108041c020a2bbaafe6d0)
++++ b/src/test/java/pageFactory/HomePage_PF.java	(date 1713260190722)
+@@ -10,7 +10,7 @@
+     public static void main(String[] args) {
+         System.out.println("new changes in rms-123");
+ 
+-
++        System.out.println("feature changes 456");
+     }
+ 
+     @FindBy(id= "logout_sidebar_link")
