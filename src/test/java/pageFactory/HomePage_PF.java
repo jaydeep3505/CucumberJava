@@ -9,7 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage_PF {
     public static void main(String[] args) {
         System.out.println("new changes in rms-123");
-        System.out.println("latest change in RMS-123 feature branch");
+
+
     }
 
     @FindBy(id= "logout_sidebar_link")
