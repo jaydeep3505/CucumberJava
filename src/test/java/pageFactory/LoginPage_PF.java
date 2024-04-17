@@ -28,7 +28,7 @@ public class LoginPage_PF {
         PageFactory.initElements(factory,this);
 //        PageFactory.initElements(new AjaxElementLocatorFactory(driver,30),this);
     }
-    public voidd enterUsername(String username){ txt_username.sendKeys(username); }
+    public void enterUsername(String username){ txt_username.sendKeys(username); }
     public void enterPassword(String password){txt_password.sendKeys(password);}
     public void clickLogin(){btn_login.click();}
 
