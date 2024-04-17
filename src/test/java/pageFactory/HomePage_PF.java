@@ -11,6 +11,8 @@ public class HomePage_PF {
         System.out.println("new changes in rms-123");
         System.out.println("feature changes 456");
         System.out.println("New changes in Master remote");
+
+         System.out.println("this demo is for git rebase from IntelliJ");
     }
 
     @FindBy(id= "logout_sidebar_link")
