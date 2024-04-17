@@ -28,7 +28,7 @@ public class LoginDemoSteps_PF {
     }
     @io.cucumber.java.en.And("^user is on login page$")
     public void userIsOnLoginPage() {
-        driver.navigate().to("https://www.saucedem00o.com/");
+        driver.navigate().to("https://www.saucedemo.com/");
     }
     @io.cucumber.java.en.When("^user enters (.*) and (.*)$")
     public void userEntersUsernameAndPassword(String username, String password) throws InterruptedException {
