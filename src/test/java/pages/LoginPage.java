@@ -16,7 +16,7 @@ public class LoginPage {
 //            throw new IllegalStateException("This is not login page. the Current page is "+ driver.getCurrentUrl());
 //        }
     }
-    public voidd enterUsername(String username){
+    public void enterUsername(String username){
         driver.findElement(txt_username).sendKeys(username);
     }
     public void enterPassword(String password){
