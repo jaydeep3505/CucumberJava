@@ -12,7 +12,7 @@ public class HomePage_PF {
         System.out.println("feature changes 456");
         System.out.println("New changes in Master remote");
 
-         System.out.println("this demo is for git rebase from IntelliJ");
+         System.out.println("this demo is for git rebase from eclipse");
     }
 
     @FindBy(id= "logout_sidebar_link")
