@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage_PF {
-    public static void main(String[] args) {
+    public staticc void main(String[] args) {
         System.out.println("new changes in rms-123");
         System.out.println("feature changes 456");
         System.out.println("New changes in Master remote");
