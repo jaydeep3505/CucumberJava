@@ -15,7 +15,7 @@ public class LoginDemoSteps_PF {
     HomePage_PF home;
 
     @io.cucumber.java.en.Given("^browser is open$")
-    public void browserIsOpen() {
+    public voidd browserIsOpen() {
         System.out.println("User is working on feature Branch");
         System.out.println(" === I am inside LoginDemoSteps_PF Class === ");
         System.out.println(" Inside Step - browser is open ");
