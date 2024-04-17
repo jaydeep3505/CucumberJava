@@ -15,7 +15,7 @@ public class LoginDemoSteps_PF {
     HomePage_PF home;
 
     @io.cucumber.java.en.Given("^browser is open$")
-    public voidd browserIsOpen() {
+    public void browserIsOpen() {
         System.out.println("User is working on feature Branch");
         System.out.println(" === I am inside LoginDemoSteps_PF Class === ");
         System.out.println(" Inside Step - browser is open ");
@@ -28,7 +28,7 @@ public class LoginDemoSteps_PF {
     }
     @io.cucumber.java.en.And("^user is on login page$")
     public void userIsOnLoginPage() {
-        driver.navigate().to("https://www.saucedemo.com/");
+        driver.navigate().to("https://www.saucedem00o.com/");
     }
     @io.cucumber.java.en.When("^user enters (.*) and (.*)$")
     public void userEntersUsernameAndPassword(String username, String password) throws InterruptedException {
